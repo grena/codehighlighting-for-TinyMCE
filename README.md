@@ -4,7 +4,9 @@
 codehighlighting-for-TinyMCE is **a plugin for tinyMCE** editor.
 
 ## What does it do ?
-It allows you to put some content in your TinyMCE editor which can be colored by SyntaxHighlighter.
+It allows you to put some content in your TinyMCE editor which can be colored by SyntaxHighlighter.   
+See a preview of what it looks like in your TinyMCE editor :  
+![codehighlighting in TinyMCE](http://box.grena.fr/images/demo.jpg)
 
 ## What do I need ?
 - This projet is a plugin for TinyMCE, so your naturally need **TinyMCE** ([here](http://www.tinymce.com/))
@@ -29,4 +31,4 @@ tinyMCE.init({
 - **extended_valid_elements** : TinyMCE controls validity of HTML elements, we now allow class and name for `<pre>` elements.
 
 ## What else ?
-_SyntaxHighlighter Plug-in for Tinymce 3.X is a plugin initially developped by nawaf (see [this link](http://weblogs.asp.net/nawaf/archive/2008/04/10/syntaxhighlighter-plug-in-for-tinymce-3-x-wysiwyg-editor.aspx) ) but the problem is that it uses the `<textarea>` element which it not recognize by SyntaxHighlighter and doesn't offer a lot of option, so I rewrote the plugin to be used with `<pre>` and to be able to use more options that offer **SyntaxHighlighter**.
+_SyntaxHighlighter Plug-in for Tinymce 3.X is a plugin initially developped by nawaf (see [this link](http://weblogs.asp.net/nawaf/archive/2008/04/10/syntaxhighlighter-plug-in-for-tinymce-3-x-wysiwyg-editor.aspx) ) but the problem is that it's quite old and uses the `<textarea>` element which it not recognize by SyntaxHighlighter and doesn't offer a lot of option, so I rewrote the plugin to be used with `<pre>` and to be able to use more options that offer **SyntaxHighlighter**.
